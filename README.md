@@ -32,13 +32,16 @@ The server is implemented using [flask](http://flask.pocoo.org/) and the front e
 ##OSX
 Need to install `opencv` and `imagemagick` (todo: add links)
 ```sh
-pip install sqlite3
+pip install sqlite3 / sudo apt-get install sqlite3 libsqlite3-dev
 pip install numpy
 pip install flask
 pip install wand
 pip install flask
 npm install
+sudo npm install webpack -g
+sudo apt-get install nodejs-legacy
 ```
+home.jsx change import jQuery to import jquery
 
 #Development:
 compile front end
